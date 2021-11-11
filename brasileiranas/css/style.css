@@ -1,70 +1,70 @@
-* {
-    /*RESET*/
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* DEFINIÇÕES GERAIS */
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-/*CONTAINER GERAL*/
-
-.container-geral {
-    height: 100vh;
-    margin: 0 auto;
-}
-
-
-/*HEADER*/
-
-header {
-    background-color: rgb(248, 0, 50);
-    border: 1px solid #fff;
-}
-
-.header-layer-1-container {
-    height: 128px;
-    display: flex;
-    max-width: 1200px;
-    border: 1px solid blue;
-    margin: 0 auto;
-}
-
-.header-item {
-    height: 50%;
-    border: 1px solid blueviolet;
-}
-
-.header-item-1,
-.header-item-3,
-.header-item-4 {
-    width: 15%;
-}
-
-.header-item-1 {
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-}
-
-.header-item-1 img {
-    height: 30px;
-    width: 145px;
-}
-
-.div-img-logo {
-    border: 5px solid black;
-    height: 30px;
-    width: 145px;
-}
-
-.header-item-2 {
-    width: 55%;
-}
+    * {
+        /*RESET*/
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* DEFINIÇÕES GERAIS */
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    /*CONTAINER GERAL*/
+    
+    .container-geral {
+        height: 100vh;
+        margin: 0 auto;
+    }
+    /*HEADER*/
+    
+    header {
+        background-color: rgb(248, 0, 50);
+        border: 1px solid #fff;
+    }
+    
+    .header-layer-1-container {
+        height: 128px;
+        display: flex;
+        max-width: 1200px;
+        border: 1px solid blue;
+        margin: 0 auto;
+    }
+    
+    .header-item {
+        height: 50%;
+        border: 1px solid blueviolet;
+    }
+    
+    .header-item-1,
+    .header-item-3,
+    .header-item-4 {
+        width: 15%;
+    }
+    
+    .header-item-1,
+    .header-item-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header-item-1 img {
+        height: 30px;
+        width: 145px;
+    }
+    
+    .header-item-2 {
+        width: 55%;
+    }
+    
+    .form-search input {
+        width: 580px;
+        height: 50px;
+        background-color: #fff;
+    }
+    
+    .form-search button {
+        height: 50px;
+        width: 50px;
+    }
